@@ -4,7 +4,7 @@ The project simulates a renewable fuels company tracking sales transactions, cus
 
 ## Project Goal
 
-Take messy data from different sources and turn it into a clean dataset so that data could be queried with SQL. This is the preparation step before loading data to Power BI.
+Clean data in different formats (Excel and CSV) using Python, so data from different sources can be unified, cleaned, and loaded into Delta tables. After this, data can be queried with SQL.
 
 ## Process
 
@@ -27,13 +27,28 @@ Take messy data from different sources and turn it into a clean dataset so that 
 - **SQL**: double-check tables after they are loaded into Catalog as Delta tables
 - **Databricks**: notebook environment + Unity Catalog
 
-## Notebooks
+## Result
 
-| Notebook | Purpose |
-|---|---|
-| `Customers.ipynb` | Clean and load customer data |
-| `Sales_transactions.ipynb` | Clean and load transaction data |
-| `clean_products.ipynb` | Clean and load product data |
+### Sales Transactions
+![Sales cleaning](Clean%20dataset%20images/Sales%20transactions.png)
+
+### Customers
+![Customers cleaning](Clean%20dataset%20images/Customers.png)
+
+### Products
+![Products cleaning](Clean%20dataset%20images/Products.png)
+
+## Repo Structure
+
+- **`Notebooks/`**: notebooks for cleaning customers, products, and sales datasets
+- **`Clean dataset images/`**: screenshots of the data after being loaded into SQL
+- **`README.md`**: project summary
+
+## Repo Structure
+
+- **`Notebooks`**: notebooks for cleaning customers, products, and sales datasets
+- **`Clean dataset images`**: screenshots of the data after being loaded into SQL
+- **`README.md`**: project summary
 
 ## Caveat
 
