@@ -40,13 +40,13 @@ Work with data in different formats (Excel and CSV) using Python, so data from d
 
 ## Repo Structure
 
-- **`Notebooks/`**: notebooks for cleaning customers, products, and sales datasets
-- **`Clean dataset images/`**: screenshots of the data after being loaded into SQL
+- **`Notebooks`**: notebooks for cleaning customers, products, and sales datasets
+- **`Clean dataset images`**: screenshots of the data after being loaded into SQL
 - **`README.md`**: project summary
 
 ## Repo Structure
 
-- **`Notebooks`**: notebooks for cleaning customers, products, and sales datasets
+- **`Notebooks`**: notebooks for cleaning customers, products, and sales datasets in Python
 - **`Clean dataset images`**: screenshots of the data after being loaded into SQL
 - **`README.md`**: project summary
 
