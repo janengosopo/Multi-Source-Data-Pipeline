@@ -4,7 +4,7 @@ The project simulates a renewable fuels company tracking sales transactions, cus
 
 ## Project Goal
 
-Clean data in different formats (Excel and CSV) using Python, so data from different sources can be unified, cleaned, and loaded into Delta tables. After this, data can be queried with SQL.
+Work with data in different formats (Excel and CSV) using Python, so data from different sources can be unified, cleaned, and loaded into Delta tables. After this, data can be queried with SQL.
 
 ## Process
 
