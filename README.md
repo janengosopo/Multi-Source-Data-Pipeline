@@ -1,16 +1,12 @@
 # Multi-Source Sales Data Pipeline
 
-The project simulates a renewable fuels company tracking sales transactions, customers, and products across four global regions (EMEA, NA, LATAM, APAC).
+## About The Project
 
-## Project Goal
+A data pipeline that simulates a renewable fuels company tracking sales transactions, customers, and products across 4 global regions (EMEA, NA, LATAM, APAC). Below is the project breakdown:
 
-Work with data in different formats (Excel and CSV) using Python, so data from different sources can be unified, cleaned, and loaded into Delta tables. After this, data can be queried with SQL.
-
-## Process
-
-1. Reading raw CSV and Excel files with Python
-2. Cleaning inconsistencies with pandas in Python
-3. Loading cleaned data into Catalog as Delta tables
+- Built a Python pipeline to ingest, unify, and clean sales data in different formats (Excel and CSV)
+- Loaded the cleaned data into structured SQL tables. 
+- Designed as the preparation layer for Power BI, where Power BI can read table from SQL directly. This reduces refresh time compared to connecting Power BI to the raw source files.
 
 ## Cleaning Techniques Used
 
